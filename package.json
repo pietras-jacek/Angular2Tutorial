@@ -2,11 +2,11 @@
   "name": "angular2-quickstart",
   "version": "1.0.0",
   "scripts": {
-     "start": "concurrently \"npm run tsc:w\" \"nodemon app.js\" ",    
+    "start": "concurrently \"npm run tsc:w\" \"nodemon app.js\" ",
     "tsc": "tsc",
     "tsc:w": "tsc -w",
     "typings": "typings",
-    "postinstall": "typings install" 
+    "postinstall": "typings install"
   },
   "license": "ISC",
   "dependencies": {
@@ -18,6 +18,8 @@
     "reflect-metadata": "0.1.2",
     "rxjs": "5.0.0-beta.2",
     "systemjs": "0.19.24",
+    "typescript": "^1.8.10",
+    "typings": "^0.7.12",
     "zone.js": "0.6.6"
   },
   "devDependencies": {
